@@ -1,0 +1,180 @@
+
+.contact-form {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust opacity as needed */
+}
+
+.tailoring-process {
+  text-align: center;
+  padding: 20px;
+}
+
+.process-heading {
+  text-align: center;
+}
+
+.steps-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.step {
+  flex: 1;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.step:hover {
+  transform: scale(1.05);
+}
+
+h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 767px) {
+  .steps-container {
+    flex-direction: column; /* Stack cards vertically on small screens */
+    align-items: center; /* Center cards horizontally on small screens */
+  }
+  .step {
+    max-width: 100%; /* Full width for cards on small screens */
+    margin: 0 0 20px; /* Add spacing between stacked cards */
+  }
+}
+
+
+/* Add this CSS to your stylesheet */
+/* .carousel-slide {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+} */
+
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  filter: blur(1px); /* Apply a blur effect to the image */
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for text */
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%; /* Set text width to 100% of the container width */
+  height: 100%; /* Set text height to 100% of the container height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-text p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.explore-collection-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.explore-collection-button:hover {
+  background-color: green;
+  color: #fff;
+}
+
+
+/* Custom CSS in your styles.css or <style> tag */
+@media (min-width: 768px) {
+  footer {
+    padding-top: 150px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  footer {
+    padding-top: 50px;
+  }
+}
+
+
+
+
+.cart {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.cart table {
+  border-collapse: collapse;
+}
+
+.cart th,
+.cart td {
+  padding: 10px;
+}
+
+.cart th {
+  background-color: #ccc;
+}
+
+
+
+.cartComp {
+  height: 100vh;
+}
+
+
+.wrapper {
+  margin-top: 130px;
+}
+
+
+/* Custom CSS to set the image size to 400px by 500px */
+.card-img, .card-img-bottom, .card-img-top {
+	width: 100%;
+	height: 450px;
+}
